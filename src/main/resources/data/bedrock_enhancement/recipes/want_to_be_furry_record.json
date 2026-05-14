@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "BYB",
+        "III"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:black_dye"
+        },
+        "Y": {
+            "item": "minecraft:yellow_dye"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "bedrock_enhancement:want_to_be_furry_record"
+    }
+}

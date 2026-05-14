@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "bedrock_enhancement:bedrock_ingot"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "bedrock_enhancement:bedrock_block"
+    },
+    "type": "minecraft:crafting_shaped"
+}

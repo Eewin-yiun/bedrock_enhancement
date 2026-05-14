@@ -1,0 +1,33 @@
+{
+    "parent": "bedrock_enhancement:story/get_true_bedrock",
+    "display": {
+        "icon": {
+            "item": "bedrock_enhancement:bedrock_pickaxe"
+        },
+        "title": {
+            "translate": "advancement.bedrock_enhancement.get_bedrock_pickaxe"
+        },
+        "description": {
+            "translate": "advancement.bedrock_enhancement.get_bedrock_pickaxe.desc"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_bedrock_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bedrock_enhancement:bedrock_pickaxe"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150
+    }
+}

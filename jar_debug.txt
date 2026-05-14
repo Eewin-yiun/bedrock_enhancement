@@ -1,0 +1,134 @@
+=== client.jar ===
+Exists: True, Size: 23028853
+Entries: 20953
+PNG count: 2463
+  pack.png
+  assets/realms/textures/gui/realms/inspiration.png
+  assets/realms/textures/gui/realms/upload.png
+  assets/realms/textures/gui/realms/user_icon.png
+  assets/realms/textures/gui/realms/adventure.png
+  assets/realms/textures/gui/realms/empty_frame.png
+  assets/realms/textures/gui/realms/trailer_icons.png
+  assets/realms/textures/gui/realms/expires_soon_icon.png
+  assets/realms/textures/gui/realms/cross_icon.png
+  assets/realms/textures/gui/realms/invite_icon.png
+  assets/realms/textures/gui/realms/plus_icon.png
+  assets/realms/textures/gui/realms/darken.png
+  assets/realms/textures/gui/realms/news_notification_mainscreen.png
+  assets/realms/textures/gui/realms/op_icon.png
+  assets/realms/textures/gui/realms/link_icons.png
+  assets/realms/textures/gui/realms/trial_icon.png
+  assets/realms/textures/gui/realms/reject_icon.png
+  assets/realms/textures/gui/realms/news_icon.png
+  assets/realms/textures/gui/realms/expired_icon.png
+  assets/realms/textures/gui/realms/on_icon.png
+  assets/realms/textures/gui/realms/off_icon.png
+  assets/realms/textures/gui/realms/new_world.png
+  assets/realms/textures/gui/realms/cross_player_icon.png
+  assets/realms/textures/gui/realms/accept_icon.png
+  assets/realms/textures/gui/realms/restore_icon.png
+  assets/realms/textures/gui/realms/invitation_icons.png
+  assets/realms/textures/gui/realms/slot_frame.png
+  assets/realms/textures/gui/realms/experience.png
+  assets/realms/textures/gui/realms/survival_spawn.png
+  assets/realms/textures/gui/realms/popup.png
+Netherite entries: 128
+  assets/minecraft/textures/block/netherite_block.png
+  assets/minecraft/textures/item/netherite_ingot.png
+  assets/minecraft/textures/item/netherite_helmet.png
+  assets/minecraft/textures/item/empty_slot_smithing_template_netherite_upgrade.png
+  assets/minecraft/textures/item/netherite_sword.png
+  assets/minecraft/textures/item/netherite_hoe.png
+  assets/minecraft/textures/item/netherite_leggings.png
+  assets/minecraft/textures/item/netherite_pickaxe.png
+  assets/minecraft/textures/item/netherite_shovel.png
+  assets/minecraft/textures/item/netherite_boots.png
+Armor PNGs: 83
+  assets/minecraft/textures/entity/creeper/creeper_armor.png
+  assets/minecraft/textures/entity/wither/wither_armor.png
+  assets/minecraft/textures/entity/villager/profession/armorer.png
+  assets/minecraft/textures/entity/armorstand/wood.png
+  assets/minecraft/textures/entity/zombie_villager/profession/armorer.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_leather.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_iron.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_diamond.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_gold.png
+  assets/minecraft/textures/item/empty_armor_slot_leggings.png
+  assets/minecraft/textures/item/empty_armor_slot_chestplate.png
+  assets/minecraft/textures/item/wild_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/empty_armor_slot_shield.png
+  assets/minecraft/textures/item/armor_stand.png
+  assets/minecraft/textures/item/iron_horse_armor.png
+  assets/minecraft/textures/item/dune_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/shaper_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/host_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/empty_slot_smithing_template_armor_trim.png
+  assets/minecraft/textures/item/empty_armor_slot_helmet.png
+
+=== client-extra.jar ===
+Exists: True, Size: 10436626
+Entries: 13517
+PNG count: 2463
+  pack.png
+  assets/realms/textures/gui/realms/inspiration.png
+  assets/realms/textures/gui/realms/upload.png
+  assets/realms/textures/gui/realms/user_icon.png
+  assets/realms/textures/gui/realms/adventure.png
+  assets/realms/textures/gui/realms/empty_frame.png
+  assets/realms/textures/gui/realms/trailer_icons.png
+  assets/realms/textures/gui/realms/expires_soon_icon.png
+  assets/realms/textures/gui/realms/cross_icon.png
+  assets/realms/textures/gui/realms/invite_icon.png
+  assets/realms/textures/gui/realms/plus_icon.png
+  assets/realms/textures/gui/realms/darken.png
+  assets/realms/textures/gui/realms/news_notification_mainscreen.png
+  assets/realms/textures/gui/realms/op_icon.png
+  assets/realms/textures/gui/realms/link_icons.png
+  assets/realms/textures/gui/realms/trial_icon.png
+  assets/realms/textures/gui/realms/reject_icon.png
+  assets/realms/textures/gui/realms/news_icon.png
+  assets/realms/textures/gui/realms/expired_icon.png
+  assets/realms/textures/gui/realms/on_icon.png
+  assets/realms/textures/gui/realms/off_icon.png
+  assets/realms/textures/gui/realms/new_world.png
+  assets/realms/textures/gui/realms/cross_player_icon.png
+  assets/realms/textures/gui/realms/accept_icon.png
+  assets/realms/textures/gui/realms/restore_icon.png
+  assets/realms/textures/gui/realms/invitation_icons.png
+  assets/realms/textures/gui/realms/slot_frame.png
+  assets/realms/textures/gui/realms/experience.png
+  assets/realms/textures/gui/realms/survival_spawn.png
+  assets/realms/textures/gui/realms/popup.png
+Netherite entries: 128
+  assets/minecraft/textures/block/netherite_block.png
+  assets/minecraft/textures/item/netherite_ingot.png
+  assets/minecraft/textures/item/netherite_helmet.png
+  assets/minecraft/textures/item/empty_slot_smithing_template_netherite_upgrade.png
+  assets/minecraft/textures/item/netherite_sword.png
+  assets/minecraft/textures/item/netherite_hoe.png
+  assets/minecraft/textures/item/netherite_leggings.png
+  assets/minecraft/textures/item/netherite_pickaxe.png
+  assets/minecraft/textures/item/netherite_shovel.png
+  assets/minecraft/textures/item/netherite_boots.png
+Armor PNGs: 83
+  assets/minecraft/textures/entity/creeper/creeper_armor.png
+  assets/minecraft/textures/entity/wither/wither_armor.png
+  assets/minecraft/textures/entity/villager/profession/armorer.png
+  assets/minecraft/textures/entity/armorstand/wood.png
+  assets/minecraft/textures/entity/zombie_villager/profession/armorer.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_leather.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_iron.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_diamond.png
+  assets/minecraft/textures/entity/horse/armor/horse_armor_gold.png
+  assets/minecraft/textures/item/empty_armor_slot_leggings.png
+  assets/minecraft/textures/item/empty_armor_slot_chestplate.png
+  assets/minecraft/textures/item/wild_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/empty_armor_slot_shield.png
+  assets/minecraft/textures/item/armor_stand.png
+  assets/minecraft/textures/item/iron_horse_armor.png
+  assets/minecraft/textures/item/dune_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/shaper_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/host_armor_trim_smithing_template.png
+  assets/minecraft/textures/item/empty_slot_smithing_template_armor_trim.png
+  assets/minecraft/textures/item/empty_armor_slot_helmet.png
+

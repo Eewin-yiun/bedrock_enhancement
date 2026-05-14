@@ -1,0 +1,37 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.1.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Neither the 'eclipse' nor the 'idea' plugins were found, but IDE resource copy has been enabled.
+
+> Task :compileJava
+注: SpongePowered MIXIN Annotation Processor Version=0.8.5
+注: Supported obfuscation types: ObfuscationServiceMCP supports [searge,notch]
+C:\Users\Administrator\WorkBuddy\20260501080626\bedrock_enhancement\src\main\java\com\eewin\bedrock_enhancement\item\BedrockArmorItem.java:29: 错误: BedrockArmorItem中的getArmorTexture(ItemStack,Entity,EquipmentSlot,String)无法实现IForgeItem中的getArmorTexture(ItemStack,Entity,EquipmentSlot,String)
+    public ResourceLocation getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+                            ^
+  返回类型ResourceLocation与String不兼容
+C:\Users\Administrator\WorkBuddy\20260501080626\bedrock_enhancement\src\main\java\com\eewin\bedrock_enhancement\item\BedrockArmorItem.java:28: 错误: 方法不会覆盖或实现超类型的方法
+    @Override
+    ^
+注: C:\Users\Administrator\WorkBuddy\20260501080626\bedrock_enhancement\src\main\java\com\eewin\bedrock_enhancement\item\BedrockTier.java使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+2 个错误
+
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 37s
+1 actionable task: 1 executed

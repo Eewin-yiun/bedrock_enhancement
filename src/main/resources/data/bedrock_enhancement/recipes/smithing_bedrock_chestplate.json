@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "item": "bedrock_enhancement:bedrock_block"
+    },
+    "base": {
+        "item": "minecraft:netherite_chestplate"
+    },
+    "result": {
+        "item": "bedrock_enhancement:bedrock_chestplate"
+    },
+    "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "type": "minecraft:smithing_transform"
+}

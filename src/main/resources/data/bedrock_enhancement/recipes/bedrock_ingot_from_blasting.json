@@ -1,0 +1,9 @@
+{
+    "cookingtime": 100,
+    "experience": 1.0,
+    "ingredient": {
+        "item": "bedrock_enhancement:bedrock_powder_ingot"
+    },
+    "result": "bedrock_enhancement:bedrock_ingot",
+    "type": "minecraft:blasting"
+}

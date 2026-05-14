@@ -1,0 +1,9 @@
+{
+    "cookingtime": 300,
+    "experience": 2.0,
+    "ingredient": {
+        "item": "bedrock_enhancement:quasi_bedrock_block"
+    },
+    "result": "bedrock_enhancement:quasi_bedrock_ingot",
+    "type": "minecraft:smelting"
+}

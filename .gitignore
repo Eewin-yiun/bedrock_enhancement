@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# IDE
+.eclipse/
+idea/
+*.iws
+*.iml
+*.ipr
+
+# Files for the forge- or neo- mod development kit.
+run/
+out/
+
+# Minecraft dev utils
+accesstransformer/
+nologo.txt
+
+# OS
+Thumbs.db
+*.DS_Store
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties

@@ -1,0 +1,29 @@
+{
+    "parent": "bedrock_enhancement:story/full_bedrock_armor",
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {
+            "translate": "advancement.bedrock_enhancement.conquer_bedrock"
+        },
+        "description": {
+            "translate": "advancement.bedrock_enhancement.conquer_bedrock.desc"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "broke_true_bedrock": {
+            "trigger": "minecraft:break_block",
+            "conditions": {
+                "block": "minecraft:bedrock"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 500
+    }
+}

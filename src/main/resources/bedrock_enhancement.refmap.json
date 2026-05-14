@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/eewin/bedrock_enhancement/mixin/BedrockBreakMixin": {
+      "getDestroyProgress": "Lnet/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase;m_60625_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/eewin/bedrock_enhancement/mixin/BedrockBreakMixin": {
+        "getDestroyProgress": "Lnet/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase;m_60625_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F"
+      }
+    }
+  }
+}

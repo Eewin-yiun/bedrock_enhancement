@@ -1,0 +1,40 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.1.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Neither the 'eclipse' nor the 'idea' plugins were found, but IDE resource copy has been enabled.
+
+> Task :clean
+
+> Task :compileJava
+注: SpongePowered MIXIN Annotation Processor Version=0.8.5
+注: Supported obfuscation types: ObfuscationServiceMCP supports [searge,notch]
+C:\Users\Administrator\WorkBuddy\20260501080626\bedrock_enhancement\src\main\java\com\eewin\bedrock_enhancement\item\WantToFurryRecordItem.java:23: 错误: 对于RecordItem(int,RegistryObject<SoundEvent>,Properties,<空值>), 找不到合适的构造器
+        super(COMPARATOR_VALUE,
+        ^
+    构造器 RecordItem.RecordItem(int,SoundEvent,Properties,int)不适用
+      (参数不匹配; RegistryObject<SoundEvent>无法转换为SoundEvent)
+    构造器 RecordItem.RecordItem(int,Supplier<SoundEvent>,Properties,int)不适用
+      (参数不匹配; <空值>无法转换为int)
+注: 某些输入文件使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+1 个错误
+
+> Task :compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s
+2 actionable tasks: 2 executed
+EXIT_CODE=1 

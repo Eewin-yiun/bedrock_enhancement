@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "bedrock_enhancement:item/want_to_be_furry_record"
+    }
+}

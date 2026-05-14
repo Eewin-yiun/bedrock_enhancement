@@ -1,0 +1,17 @@
+{
+    "key": {
+        "#": {
+            "item": "bedrock_enhancement:bedrock_scrap"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "item": "bedrock_enhancement:bedrock_powder"
+    },
+    "type": "minecraft:crafting_shaped"
+}

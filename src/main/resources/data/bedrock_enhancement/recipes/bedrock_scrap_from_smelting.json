@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "bedrock_enhancement:bedrock_debris"
+    },
+    "result": "bedrock_enhancement:bedrock_scrap",
+    "experience": 2.0,
+    "cookingtime": 200
+}

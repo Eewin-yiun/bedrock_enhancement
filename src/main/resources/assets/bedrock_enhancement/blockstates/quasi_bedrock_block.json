@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "bedrock_enhancement:block/quasi_bedrock_block"
+        }
+    }
+}

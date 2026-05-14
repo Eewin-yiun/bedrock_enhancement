@@ -1,0 +1,66 @@
+{
+    "parent": "bedrock_enhancement:story/get_true_bedrock",
+    "display": {
+        "icon": {
+            "item": "bedrock_enhancement:bedrock_chestplate"
+        },
+        "title": {
+            "translate": "advancement.bedrock_enhancement.full_bedrock_armor"
+        },
+        "description": {
+            "translate": "advancement.bedrock_enhancement.full_bedrock_armor.desc"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bedrock_enhancement:bedrock_helmet"]
+                    }
+                ]
+            }
+        },
+        "has_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bedrock_enhancement:bedrock_chestplate"]
+                    }
+                ]
+            }
+        },
+        "has_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bedrock_enhancement:bedrock_leggings"]
+                    }
+                ]
+            }
+        },
+        "has_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bedrock_enhancement:bedrock_boots"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["has_helmet", "has_chestplate", "has_leggings", "has_boots"]
+    ],
+    "rewards": {
+        "experience": 200
+    }
+}

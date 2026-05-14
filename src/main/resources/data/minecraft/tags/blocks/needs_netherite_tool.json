@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "bedrock_enhancement:bedrock_debris",
+        "bedrock_enhancement:bedrock_block",
+        "bedrock_enhancement:quasi_bedrock_block"
+    ]
+}

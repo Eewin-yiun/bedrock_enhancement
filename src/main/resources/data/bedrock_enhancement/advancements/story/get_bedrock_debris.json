@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "bedrock_enhancement:bedrock_debris"
+        },
+        "title": {
+            "translate": "advancement.bedrock_enhancement.get_bedrock_debris"
+        },
+        "description": {
+            "translate": "advancement.bedrock_enhancement.get_bedrock_debris.desc"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_bedrock_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bedrock_enhancement:bedrock_debris"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

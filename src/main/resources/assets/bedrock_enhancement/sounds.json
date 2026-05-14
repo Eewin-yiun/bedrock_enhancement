@@ -1,0 +1,12 @@
+{
+    "records/want_to_be_furry": {
+        "category": "record",
+        "subtitle": "subtitle.bedrock_enhancement.music.want_to_be_furry",
+        "sounds": [
+            {
+                "name": "bedrock_enhancement:records/want_to_be_furry",
+                "stream": true
+            }
+        ]
+    }
+}
