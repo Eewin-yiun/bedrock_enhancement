@@ -19,7 +19,6 @@
 ### ⚔️ 工具和护甲
 - 基岩镐、剑、斧、锹、锄
 - 基岩护甲套装（头盔、胸甲、护腿、靴子）
-- 挖掘速度和护甲值参考下界合金等级
 
 ---
 
@@ -42,7 +41,6 @@
 ### ⚔️ Tools & Armor
 - Bedrock Pickaxe, Sword, Axe, Shovel, Hoe
 - Bedrock Armor Set (Helmet, Chestplate, Leggings, Boots)
-- Mining speed and armor values reference netherite tier
 
 ---
 
