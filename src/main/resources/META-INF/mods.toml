@@ -8,6 +8,7 @@ version="${version}"
 displayName="Bedrock Enhancement"
 description="Adds bedrock debris, bedrock tools, bedrock armor, and custom music to Minecraft."
 authors="Eewin"
+logoFile="bedrock_enhancement:icon.png"
 
 [[dependencies.bedrock_enhancement]]
     modId="forge"
