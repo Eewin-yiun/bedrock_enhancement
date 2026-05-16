@@ -1,55 +1,37 @@
-# bedrock_enhancement v1.7.3 Release Notes
+# bedrock_enhancement Release Notes
 
 ## 中文说明
 
-### ✨ 新功能
-- **自定义唱片「好想变成毛毛」** - 由逸云/Eewin 演唱，可在唱片机中播放
-- **防火属性** - 所有基岩工具和护甲现在具有防火属性（v1.6.0）
+基岩增强 (Bedrock Enhancement) 为 Minecraft 添加了基于基岩的全套装备系统：
 
-### 🐛 修复
-- 修复原版基岩挖掘时间问题（v1.6.1）
-- 修复护甲伤害计算逻辑（ArmorCapMixin）
-- 修复工具类防火属性遗漏（v1.5.9）
+- 基岩残骸 (Bedrock Debris) - 在下界挖掘获得，用于合成基岩装备
+- 基岩工具套件 - 镐、剑、斧、锹、锄（可挖掘原版基岩）
+- 基岩盔甲套装 - 提供极致防御与防火属性
+- 自定义音乐唱片「好想变成毛毛」- 可在唱片机中播放
 
-### 🧱 方块
-- **基岩块 (Bedrock Block)** - 可破坏的基岩变体
-- **准基岩块 (Quasi Bedrock Block)** - 较软的基岩变体
-- **基岩残骸 (Bedrock Debris)** - 基岩碎片方块，可在世界中生成
+兼容性：
+- Minecraft Forge 1.20.1
 
-### ⚔️ 工具和护甲
-- 基岩镐、剑、斧、锹、锄
-- 基岩护甲套装（头盔、胸甲、护腿、靴子）
-
+### 安装说明
+1. 安装 Minecraft Forge 1.20.1
+2. 将 `bedrock_enhancement-x.x.x.jar` 放入 `mods` 文件夹
+3. 启动游戏
 ---
 
 ## English Notes
 
-### ✨ Features
-- **Custom Music Disc "Want to Furry Record"** - Performed by Eewin, playable in jukebox
-- **Fire Resistance** - All bedrock tools and armor now have fire resistance property (v1.6.0)
+Bedrock Enhancement adds a complete bedrock-based gear system to Minecraft:
 
-### 🐛 Fixes
-- Fixed vanilla bedrock mining time issue (v1.6.1)
-- Fixed armor damage calculation logic (ArmorCapMixin)
-- Fixed missing fire resistance for tool classes (v1.5.9)
+- Bedrock Debris - Obtained by mining in the Nether, used to craft bedrock gear
+- Bedrock Tools - Pickaxe, Sword, Axe, Shovel, Hoe (can mine vanilla bedrock)
+- Bedrock Armor Set - Provides ultimate defense with fire resistance
+- Custom Music Disc "Want to be Furry" - Playable in jukebox
 
-### 🧱 Blocks
-- **Bedrock Block** - Breakable bedrock variant
-- **Quasi Bedrock Block** - Softer bedrock variant
-- **Bedrock Debris** - Bedrock debris block, generates in world
+Compatibility:
+- Minecraft Forge 1.20.1
 
-### ⚔️ Tools & Armor
-- Bedrock Pickaxe, Sword, Axe, Shovel, Hoe
-- Bedrock Armor Set (Helmet, Chestplate, Leggings, Boots)
-
----
-
-## 安装说明 / Installation
-
-1. 安装 Minecraft Forge 1.20.1
-2. 将 `bedrock_enhancement-1.7.3.jar` 放入 `mods` 文件夹
-3. 启动游戏
-
+### Installatio
 1. Install Minecraft Forge 1.20.1
-2. Put `bedrock_enhancement-1.7.3.jar` into `mods` folder
+2. Put `bedrock_enhancement-x.x.x.jar` into `mods` folder
 3. Launch the game
+---
