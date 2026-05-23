@@ -1,4 +1,0 @@
-Trying: https://assets.mcasset.cloud/1.20.1/assets/minecraft/textures/models/armor/netherite_layer_1.png
-  OK! Saved bedrock_layer_1.png: 641 bytes (valid PNG)
-Trying: https://assets.mcasset.cloud/1.20.1/assets/minecraft/textures/models/armor/netherite_layer_2.png
-  OK! Saved bedrock_layer_2.png: 331 bytes (valid PNG)
