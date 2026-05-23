@@ -1,19 +1,23 @@
 package com.eewin.bedrock_enhancement.registry;
 
 import com.eewin.bedrock_enhancement.BedrockEnhancement;
-import com.eewin.bedrock_enhancement.block.ModBedrockBlock;
 import com.eewin.bedrock_enhancement.block.BedrockDebrisBlock;
+import com.eewin.bedrock_enhancement.block.BedrockGlassBlock;
+import com.eewin.bedrock_enhancement.block.BedrockSlabBlock;
+import com.eewin.bedrock_enhancement.block.BedrockStairBlock;
+import com.eewin.bedrock_enhancement.block.ModBedrockBlock;
 import com.eewin.bedrock_enhancement.block.QuasiBedrockBlock;
+import com.eewin.bedrock_enhancement.block.BedrockSandBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-// ========================================
+// ======================================
 // 方块注册类
 // 所有自定义方块都在这里注册
-// ========================================
+// ======================================
 
 public class ModBlocks {
 
@@ -21,7 +25,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BedrockEnhancement.MOD_ID);
 
-    // ========== 方块注册 ==========
+    // ========= 方块注册 =========
 
     // 基岩残骸：生成在主世界基岩层附近，非常稀有
     // 需要下界合金镐及以上才能挖掘，挖掘掉落1个基岩碎渣
@@ -37,6 +41,23 @@ public class ModBlocks {
     // 需要下界合金镐及以上才能挖掘，烧制获得准基岩锭
     public static final RegistryObject<Block> QUASI_BEDROCK_BLOCK =
             BLOCKS.register("quasi_bedrock_block", QuasiBedrockBlock::new);
+
+    // 基岩沙：行为类似沙子，受重力影响，可用任何物品挖掘
+    // 只能通过合成获得（基岩粉末 + 沙子）
+    public static final RegistryObject<Block> BEDROCK_SAND =
+            BLOCKS.register("bedrock_sand", BedrockSandBlock::new);
+
+    // 基岩玻璃：防爆（极高爆炸抗性），通过烧制基岩沙获得
+    public static final RegistryObject<Block> BEDROCK_GLASS =
+            BLOCKS.register("bedrock_glass", BedrockGlassBlock::new);
+
+    // 基岩半砖：用基岩块合成，防爆，只能基岩镐挖掘
+    public static final RegistryObject<Block> BEDROCK_SLAB =
+            BLOCKS.register("bedrock_slab", BedrockSlabBlock::new);
+
+    // 基岩楼梯：用基岩块合成，防爆，只能基岩镐挖掘
+    public static final RegistryObject<Block> BEDROCK_STAIRS =
+            BLOCKS.register("bedrock_stairs", BedrockStairBlock::new);
 
     // 注册方法，在主类中调用
     public static void register(IEventBus eventBus) {

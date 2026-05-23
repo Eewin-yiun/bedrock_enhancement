@@ -9,8 +9,12 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 // ========================================
@@ -48,7 +52,10 @@ public class ModCreativeTabs {
                         // --- 方块 ---
                         output.accept(ModItems.BEDROCK_DEBRIS_ITEM.get());
                         output.accept(ModItems.BEDROCK_BLOCK_ITEM.get());
+                        output.accept(ModItems.BEDROCK_SLAB_ITEM.get());
+                        output.accept(ModItems.BEDROCK_STAIRS_ITEM.get());
                         output.accept(ModItems.QUASI_BEDROCK_BLOCK_ITEM.get());
+                        output.accept(ModItems.BEDROCK_SAND_ITEM.get());
 
                         // --- 工具 ---
                         output.accept(ModItems.BEDROCK_PICKAXE.get());
@@ -63,8 +70,25 @@ public class ModCreativeTabs {
                         output.accept(ModItems.BEDROCK_LEGGINGS.get());
                         output.accept(ModItems.BEDROCK_BOOTS.get());
 
+                        // --- 玻璃方块 ---
+                        output.accept(ModItems.BEDROCK_GLASS_ITEM.get());
+
                         // --- 音乐唱片 ---
                         output.accept(ModItems.WANT_TO_BE_FURRY_RECORD.get());
+
+                        // --- 附魔书 ---
+                        ItemStack minerBook = new ItemStack(Items.ENCHANTED_BOOK);
+                        net.minecraft.world.item.enchantment.Enchantment minerEnch =
+                                ForgeRegistries.ENCHANTMENTS.getValue(new ResourceLocation(BedrockEnhancement.MOD_ID, "bedrock_miner"));
+                        if (minerEnch != null) {
+                            CompoundTag enchTag = new CompoundTag();
+                            enchTag.putString("id", ForgeRegistries.ENCHANTMENTS.getKey(minerEnch).toString());
+                            enchTag.putShort("lvl", (short)1);
+                            ListTag stored = new ListTag();
+                            stored.add(enchTag);
+                            minerBook.getOrCreateTag().put("StoredEnchantments", stored);
+                            output.accept(minerBook);
+                        }
                     })
                     .build());
 

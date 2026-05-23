@@ -1,27 +1,47 @@
-# Gradle
-.gradle/
+# Minecraft Forge 构建产物
 build/
-**/build/
-
-# IDE
-.eclipse/
-idea/
-*.iws
-*.iml
-*.ipr
-
-# Files for the forge- or neo- mod development kit.
+!build/libs/
+!build/libs/*.jar
 run/
-out/
+logs/
+*.jar
+*.log
 
-# Minecraft dev utils
-accesstransformer/
-nologo.txt
+# 源码压缩包
+*.zip
+*.tar.gz
+*.7z
 
-# OS
+# Python 脚本（发布相关）
+*.py
+
+# 临时文件
+*.bat
+*.sh
+*.json
+!*.json # 保留模组的 JSON 文件
+
+# IDE 文件
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+
+# Gradle 文件
+.gradle/
+**/build/
+!**/build.gradle
+!**/settings.gradle
+
+# 系统文件
 Thumbs.db
-*.DS_Store
+Desktop.ini
+.DS_Store
 
-# Gradle wrapper
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
+# 文档（非必要）
+*.md
+!README.md
+!LICENSE
+!RELEASE_*.md

@@ -20,8 +20,8 @@ public class WantToFurryRecordItem extends LoopedRecordItem {
 
     // comparator 参数：15（与原版唱片相同，控制比较器输出强度）
     private static final int COMPARATOR_VALUE = 15;
-    // 唱片时长（游戏刻）：6000 tick = 300秒 = 5分钟
-    private static final int RECORD_LENGTH = 6000;
+    // 唱片时长（游戏刻）：4640 tick = 232秒 = 3分52秒
+    private static final int RECORD_LENGTH = 4640;
 
     @SuppressWarnings("deprecation")
     public WantToFurryRecordItem() {

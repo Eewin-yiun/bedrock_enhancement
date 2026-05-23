@@ -3,6 +3,7 @@ package com.eewin.bedrock_enhancement;
 import com.eewin.bedrock_enhancement.item.BedrockTier;
 import com.eewin.bedrock_enhancement.registry.ModBlocks;
 import com.eewin.bedrock_enhancement.creative.ModCreativeTabs;
+import com.eewin.bedrock_enhancement.registry.ModEnchants;
 import com.eewin.bedrock_enhancement.registry.ModItems;
 import com.eewin.bedrock_enhancement.registry.ModSounds;
 import com.eewin.bedrock_enhancement.command.FindBedrockDebrisCommand;
@@ -36,6 +37,9 @@ public class BedrockEnhancement {
 
         // 注册物品（必须在监听器注册之前）
         ModItems.register(modEventBus);
+
+        // 注册附魔
+        ModEnchants.register(modEventBus);
 
         // 注册方块（必须在监听器注册之前）
         ModBlocks.register(modEventBus);
