@@ -4,6 +4,7 @@ import com.eewin.bedrock_enhancement.item.BedrockTier;
 import com.eewin.bedrock_enhancement.registry.ModBlocks;
 import com.eewin.bedrock_enhancement.creative.ModCreativeTabs;
 import com.eewin.bedrock_enhancement.registry.ModEnchants;
+import com.eewin.bedrock_enhancement.registry.ModEntities;
 import com.eewin.bedrock_enhancement.registry.ModItems;
 import com.eewin.bedrock_enhancement.registry.ModSounds;
 import com.eewin.bedrock_enhancement.command.FindBedrockDebrisCommand;
@@ -46,6 +47,9 @@ public class BedrockEnhancement {
 
         // 注册创造模式物品栏
         ModCreativeTabs.register(modEventBus);
+
+        // 注册实体
+        ModEntities.register(modEventBus);
 
         // 在 FMLCommonSetupEvent 中注册 BedrockTier 到 TierSortingRegistry
         // 必须在此事件中注册，不能在 enum static{} 块里注册

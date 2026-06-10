@@ -7,6 +7,7 @@ import com.eewin.bedrock_enhancement.item.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -85,6 +86,40 @@ public class ModItems {
     public static final RegistryObject<Item> BEDROCK_BOOTS = ITEMS.register("bedrock_boots",
             () -> new BedrockArmorItem(net.minecraft.world.item.ArmorItem.Type.BOOTS));
 
+    // ======== 特殊物品 ========
+
+    // 基岩苹果：吃下后获得强大的正面效果和负面效果
+    public static final RegistryObject<Item> BEDROCK_APPLE = ITEMS.register("bedrock_apple",
+            BedrockAppleItem::new);
+
+    // 磐基黏土球：类似黏土球，挖掘磐基黏土获得4个
+    public static final RegistryObject<Item> BEDROCK_CLAY_BALL = ITEMS.register("bedrock_clay_ball",
+            BedrockClayBallItem::new);
+
+    // 基岩砖：烧制磐基黏土球获得，用于合成基岩砖块
+    public static final RegistryObject<Item> BEDROCK_BRICK = ITEMS.register("bedrock_brick",
+            BedrockBrickItem::new);
+
+    // 基岩棍：2个基岩竖着排合成4个，防火
+    public static final RegistryObject<Item> BEDROCK_STICK = ITEMS.register("bedrock_stick",
+            BedrockStickItem::new);
+
+    // 基岩准线：3个磐基黏土球对角线排列合成，烧炼后获得基岩线
+    public static final RegistryObject<Item> BEDROCK_STRING_ROUGH = ITEMS.register("bedrock_string_rough",
+            BedrockStringRoughItem::new);
+
+    // 基岩线：烧炼基岩准线获得
+    public static final RegistryObject<Item> BEDROCK_STRING = ITEMS.register("bedrock_string",
+            BedrockStringItem::new);
+
+    // 基岩弓：高耐久高射速弓，耐久3840（原版384×10）
+    public static final RegistryObject<Item> BEDROCK_BOW = ITEMS.register("bedrock_bow",
+            BedrockBowItem::new);
+
+    // 基岩箭：高伤害箭矢，伤害为原版箭的10倍
+    public static final RegistryObject<Item> BEDROCK_ARROW = ITEMS.register("bedrock_arrow",
+            BedrockArrowItem::new);
+
     // ======== 方块物品（让方块能放在物品栏里） ========
 
     // 基岩残骸的物品形式
@@ -120,6 +155,26 @@ public class ModItems {
     // 基岩楼梯的物品形式
     public static final RegistryObject<Item> BEDROCK_STAIRS_ITEM = ITEMS.register("bedrock_stairs",
             () -> new BlockItem(ModBlocks.BEDROCK_STAIRS.get(),
+                    new Item.Properties()));
+
+    // 基岩门的物品形式
+    public static final RegistryObject<Item> BEDROCK_DOOR_ITEM = ITEMS.register("bedrock_door",
+            () -> new BlockItem(ModBlocks.BEDROCK_DOOR.get(),
+                    new Item.Properties()));
+
+    // 基岩砂岩的物品形式
+    public static final RegistryObject<Item> BEDROCK_SANDSTONE_ITEM = ITEMS.register("bedrock_sandstone",
+            () -> new BlockItem(ModBlocks.BEDROCK_SANDSTONE.get(),
+                    new Item.Properties()));
+
+    // 磐基黏土的物品形式
+    public static final RegistryObject<Item> BEDROCK_CLAY_ITEM = ITEMS.register("bedrock_clay",
+            () -> new BlockItem(ModBlocks.BEDROCK_CLAY.get(),
+                    new Item.Properties()));
+
+    // 基岩砖块的物品形式
+    public static final RegistryObject<Item> BEDROCK_BRICKS_ITEM = ITEMS.register("bedrock_bricks",
+            () -> new BlockItem(ModBlocks.BEDROCK_BRICKS.get(),
                     new Item.Properties()));
 
     // ======== 音乐唱片 ========

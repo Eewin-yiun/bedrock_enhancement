@@ -1,8 +1,12 @@
 package com.eewin.bedrock_enhancement.registry;
 
 import com.eewin.bedrock_enhancement.BedrockEnhancement;
+import com.eewin.bedrock_enhancement.block.BedrockBricksBlock;
+import com.eewin.bedrock_enhancement.block.BedrockClayBlock;
 import com.eewin.bedrock_enhancement.block.BedrockDebrisBlock;
+import com.eewin.bedrock_enhancement.block.BedrockDoorBlock;
 import com.eewin.bedrock_enhancement.block.BedrockGlassBlock;
+import com.eewin.bedrock_enhancement.block.BedrockSandstoneBlock;
 import com.eewin.bedrock_enhancement.block.BedrockSlabBlock;
 import com.eewin.bedrock_enhancement.block.BedrockStairBlock;
 import com.eewin.bedrock_enhancement.block.ModBedrockBlock;
@@ -58,6 +62,22 @@ public class ModBlocks {
     // 基岩楼梯：用基岩块合成，防爆，只能基岩镐挖掘
     public static final RegistryObject<Block> BEDROCK_STAIRS =
             BLOCKS.register("bedrock_stairs", BedrockStairBlock::new);
+
+    // 基岩门：防火防爆，只能通过红石激活开关
+    public static final RegistryObject<Block> BEDROCK_DOOR =
+            BLOCKS.register("bedrock_door", BedrockDoorBlock::new);
+
+    // 基岩砂岩：硬度为砂岩1.5倍，材质为砂岩改色
+    public static final RegistryObject<Block> BEDROCK_SANDSTONE =
+            BLOCKS.register("bedrock_sandstone", BedrockSandstoneBlock::new);
+
+    // 磐基黏土：硬度为黏土块1.5倍，挖掘获得4个磐基黏土球
+    public static final RegistryObject<Block> BEDROCK_CLAY =
+            BLOCKS.register("bedrock_clay", BedrockClayBlock::new);
+
+    // 基岩砖块：硬度为红砖块1.5倍，防爆防火，需钻石镐+挖掘才有掉落物
+    public static final RegistryObject<Block> BEDROCK_BRICKS =
+            BLOCKS.register("bedrock_bricks", BedrockBricksBlock::new);
 
     // 注册方法，在主类中调用
     public static void register(IEventBus eventBus) {

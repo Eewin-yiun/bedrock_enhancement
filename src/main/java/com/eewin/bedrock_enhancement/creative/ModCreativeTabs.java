@@ -56,6 +56,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.BEDROCK_STAIRS_ITEM.get());
                         output.accept(ModItems.QUASI_BEDROCK_BLOCK_ITEM.get());
                         output.accept(ModItems.BEDROCK_SAND_ITEM.get());
+                        output.accept(ModItems.BEDROCK_CLAY_ITEM.get());
+                        output.accept(ModItems.BEDROCK_BRICKS_ITEM.get());
 
                         // --- 工具 ---
                         output.accept(ModItems.BEDROCK_PICKAXE.get());
@@ -72,6 +74,22 @@ public class ModCreativeTabs {
 
                         // --- 玻璃方块 ---
                         output.accept(ModItems.BEDROCK_GLASS_ITEM.get());
+
+                        // --- 基岩门 ---
+                        output.accept(ModItems.BEDROCK_DOOR_ITEM.get());
+
+                        // --- 基岩砂岩 ---
+                        output.accept(ModItems.BEDROCK_SANDSTONE_ITEM.get());
+
+                        // --- 特殊物品 ---
+                        output.accept(ModItems.BEDROCK_APPLE.get());
+                        output.accept(ModItems.BEDROCK_CLAY_BALL.get());
+                        output.accept(ModItems.BEDROCK_BRICK.get());
+                        output.accept(ModItems.BEDROCK_STICK.get());
+                        output.accept(ModItems.BEDROCK_STRING_ROUGH.get());
+                        output.accept(ModItems.BEDROCK_STRING.get());
+                        output.accept(ModItems.BEDROCK_BOW.get());
+                        output.accept(ModItems.BEDROCK_ARROW.get());
 
                         // --- 音乐唱片 ---
                         output.accept(ModItems.WANT_TO_BE_FURRY_RECORD.get());

@@ -5,6 +5,7 @@
         "bedrock_enhancement:bedrock_block",
         "bedrock_enhancement:bedrock_slab",
         "bedrock_enhancement:bedrock_stairs",
-        "bedrock_enhancement:quasi_bedrock_block"
+        "bedrock_enhancement:quasi_bedrock_block",
+        "bedrock_enhancement:bedrock_bricks"
     ]
 }
