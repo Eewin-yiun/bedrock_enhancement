@@ -18,8 +18,9 @@ logs/
 # 临时文件
 *.bat
 *.sh
-*.json
-!*.json # 保留模组的 JSON 文件
+*.txt
+assets/
+gradle-*/
 
 # IDE 文件
 .idea/
