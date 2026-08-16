@@ -3,6 +3,7 @@ package com.eewin.bedrock_enhancement.event;
 import com.eewin.bedrock_enhancement.BedrockEnhancement;
 import com.eewin.bedrock_enhancement.enchantment.BedrockMinerEnchantment;
 import com.eewin.bedrock_enhancement.registry.ModBlocks;
+import com.eewin.bedrock_enhancement.registry.ModEnchants;
 import com.eewin.bedrock_enhancement.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
@@ -99,6 +100,11 @@ public class BedrockPickaxeEventHandler {
         // 情况1：基岩工具（基岩20秒，半砖/楼梯10秒）
         if (isBedrockTool(mainHand)) {
             float speed = isSlabOrStairs(event.getState()) ? BEDROCK_DIG_SPEED * 2 : BEDROCK_DIG_SPEED;
+            // 基岩破坏者附魔：每等级在前一级基础上挖掘基岩速度 ×1.5（仅基岩镐）
+            int breakerLevel = mainHand.getEnchantmentLevel(ModEnchants.BEDROCK_BREAKER.get());
+            if (breakerLevel > 0) {
+                speed *= (float) Math.pow(1.5, breakerLevel);
+            }
             event.setNewSpeed(speed);
             return;
         }

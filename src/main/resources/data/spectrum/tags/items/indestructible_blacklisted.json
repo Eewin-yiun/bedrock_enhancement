@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "bedrock_enhancement:bedrock_pickaxe",
+    "bedrock_enhancement:bedrock_axe",
+    "bedrock_enhancement:bedrock_shovel",
+    "bedrock_enhancement:bedrock_sword",
+    "bedrock_enhancement:bedrock_hoe",
+    "bedrock_enhancement:bedrock_bow",
+    "bedrock_enhancement:bedrock_helmet",
+    "bedrock_enhancement:bedrock_chestplate",
+    "bedrock_enhancement:bedrock_leggings",
+    "bedrock_enhancement:bedrock_boots"
+  ]
+}

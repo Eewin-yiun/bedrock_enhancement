@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #S",
+    "# S",
+    " #S"
+  ],
+  "key": {
+    "#": {
+      "item": "bedrock_enhancement:bedrock_stick"
+    },
+    "S": {
+      "item": "bedrock_enhancement:bedrock_string"
+    }
+  },
+  "result": {
+    "item": "bedrock_enhancement:bedrock_bow"
+  }
+}

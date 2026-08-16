@@ -37,5 +37,37 @@ public class VillagerTradeHandler {
                     0.05f                                   // priceMultiplier
             );
         });
+
+        // 交易：32 个绿宝石 + 1 本书 → 基岩破坏者 I 附魔书（II 级仅附魔台可得）
+        event.getTrades().get(5).add((trader, random) -> {
+            ItemStack book = new ItemStack(Items.ENCHANTED_BOOK);
+            EnchantedBookItem.addEnchantment(book,
+                    new net.minecraft.world.item.enchantment.EnchantmentInstance(
+                            ModEnchants.BEDROCK_BREAKER.get(), 1));
+            return new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32),   // 第一个输入：32 绿宝石
+                    new ItemStack(Items.BOOK),            // 第二个输入：1 本书
+                    book,                                  // 输出：基岩破坏者 I 附魔书
+                    12,                                     // maxUses
+                    10,                                     // villagerXp
+                    0.05f                                   // priceMultiplier
+            );
+        });
+
+        // 交易：64 个绿宝石 + 1 本书 → 轻裾凛云附魔书
+        event.getTrades().get(5).add((trader, random) -> {
+            ItemStack book = new ItemStack(Items.ENCHANTED_BOOK);
+            EnchantedBookItem.addEnchantment(book,
+                    new net.minecraft.world.item.enchantment.EnchantmentInstance(
+                            ModEnchants.CLOUD_STRIDE.get(), 1));
+            return new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 64),   // 第一个输入：64 绿宝石
+                    new ItemStack(Items.BOOK),            // 第二个输入：1 本书
+                    book,                                  // 输出：轻裾凛云附魔书
+                    12,                                     // maxUses
+                    10,                                     // villagerXp
+                    0.05f                                   // priceMultiplier
+            );
+        });
     }
 }

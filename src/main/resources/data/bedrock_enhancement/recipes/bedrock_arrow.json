@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I  ",
+    " A ",
+    "  S"
+  ],
+  "key": {
+    "I": {
+      "item": "bedrock_enhancement:bedrock_ingot"
+    },
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "S": {
+      "item": "bedrock_enhancement:bedrock_stick"
+    }
+  },
+  "result": {
+    "item": "bedrock_enhancement:bedrock_arrow",
+    "count": 4
+  }
+}

@@ -47,9 +47,10 @@ public enum BedrockTier implements Tier {
     }
 
     // 攻击伤害加成
+    // 原8.0 → 现5.0：配合各工具基础值下调，实现总伤害"砍半但仍高于下界合金"
     @Override
     public float getAttackDamageBonus() {
-        return 8.0F;
+        return 5.0F;
     }
 
     // 挖掘等级：5（高于下界合金的4）

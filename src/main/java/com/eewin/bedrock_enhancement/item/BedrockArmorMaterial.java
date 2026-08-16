@@ -11,19 +11,20 @@ import java.util.function.Supplier;
 
 // =======================================
 // 基岩盔甲材质
-// 防御值为下界合金的3倍
-// 穿戴全套免疫火焰伤害和击退
+// 每件防御值不超过20，但仍强于下界合金
+// 韧性弱于原先、强于下界合金；击退抗性大幅降低（可被击退，但仍强于下界合金的0）
+// 穿戴全套免疫火焰伤害和弹射物/爆炸伤害（由 BedrockArmorEventHandler 实现）
 // =======================================
 
 public enum BedrockArmorMaterial implements ArmorMaterial {
 
     BEDROCK("bedrock",
             60,         // 耐久度乘数（下界合金37，基岩×5 ≈ 60→ 实际耐久见getDurabilityForType）
-            new int[]{15, 40, 30, 15}, // 防御值 [头盔, 胸甲, 护腿, 靴子] = 下界合金 ×5
+            new int[]{8, 20, 16, 8}, // 防御值 [头盔, 胸甲, 护腿, 靴子] 均≤20且高于下界合金(3/8/6/3)
             30,         // 附魔价值（下界合金25，基岩更高）
             SoundEvents.ARMOR_EQUIP_NETHERITE,
-            10.0F,      // 韧性（下界合金3.0 × 3+）
-            1.0F,       // 击退抗性（1.0 = 完全免疫击退）
+            5.0F,       // 韧性（下界合金3.0，基岩5.0，弱于原先的10.0但强于下界合金）
+            0.25F,      // 击退抗性（25%，可被击退，但强于下界合金的0）
             () -> Ingredient.of(ModItems.BEDROCK_INGOT.get()));
 
     private final String name;
@@ -67,12 +68,12 @@ public enum BedrockArmorMaterial implements ArmorMaterial {
     @Override
     public int getDefenseForType(ArmorItem.Type type) {
         // 下界合金：头盔3, 胸甲8, 护腿6, 靴子3
-        // 基岩 ×5：
+        // 基岩：均≤20且高于下界合金
         return switch (type) {
-            case BOOTS -> 15;      // 3 × 5
-            case LEGGINGS -> 30;   // 6 × 5
-            case CHESTPLATE -> 40; // 8 × 5
-            case HELMET -> 15;     // 3 × 5
+            case BOOTS -> 8;       // > 下界合金3
+            case LEGGINGS -> 16;   // > 下界合金6
+            case CHESTPLATE -> 20; // > 下界合金8
+            case HELMET -> 8;      // > 下界合金3
             default -> 0;
         };
     }

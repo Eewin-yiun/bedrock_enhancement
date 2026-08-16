@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bedrock_enhancement:bedrock_clay_ball"
+  },
+  "result": "bedrock_enhancement:bedrock_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

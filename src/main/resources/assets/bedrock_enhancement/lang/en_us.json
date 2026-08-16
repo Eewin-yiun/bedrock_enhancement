@@ -63,5 +63,9 @@
   "advancement.bedrock_enhancement.blast_proof_glass.title": "Blast-Proof Glass",
   "advancement.bedrock_enhancement.blast_proof_glass.desc": "Obtain Bedrock Glass",
   "enchantment.bedrock_enhancement.bedrock_miner": "Bedrock Miner",
-  "enchantment.bedrock_enhancement.bedrock_miner.desc": "Consumes massive durability to break bedrock"
+  "enchantment.bedrock_enhancement.bedrock_miner.desc": "Consumes massive durability to break bedrock",
+  "enchantment.bedrock_enhancement.bedrock_breaker": "Bedrock Breaker",
+  "enchantment.bedrock_enhancement.bedrock_breaker.desc": "Mines bedrock 50% faster per level",
+  "enchantment.bedrock_enhancement.cloud_stride": "Cloud Stride",
+  "enchantment.bedrock_enhancement.cloud_stride.desc": "+10% movement speed"
 }

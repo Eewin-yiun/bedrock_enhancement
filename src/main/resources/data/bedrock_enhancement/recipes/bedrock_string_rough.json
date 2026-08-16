@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    " # ",
+    "  #"
+  ],
+  "key": {
+    "#": {
+      "item": "bedrock_enhancement:bedrock_clay_ball"
+    }
+  },
+  "result": {
+    "item": "bedrock_enhancement:bedrock_string_rough"
+  }
+}

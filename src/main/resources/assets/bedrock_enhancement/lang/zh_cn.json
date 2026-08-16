@@ -63,5 +63,9 @@
   "advancement.bedrock_enhancement.blast_proof_glass.title": "防爆玻璃",
   "advancement.bedrock_enhancement.blast_proof_glass.desc": "获得基岩玻璃",
   "enchantment.bedrock_enhancement.bedrock_miner": "基岩挖掘者",
-  "enchantment.bedrock_enhancement.bedrock_miner.desc": "消耗大量耐久来破坏基岩"
+  "enchantment.bedrock_enhancement.bedrock_miner.desc": "消耗大量耐久来破坏基岩",
+  "enchantment.bedrock_enhancement.bedrock_breaker": "基岩破坏者",
+  "enchantment.bedrock_enhancement.bedrock_breaker.desc": "每等级挖掘基岩速度提升50%",
+  "enchantment.bedrock_enhancement.cloud_stride": "轻裾凛云",
+  "enchantment.bedrock_enhancement.cloud_stride.desc": "移速增加10%"
 }
